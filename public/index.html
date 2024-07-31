@@ -1,0 +1,378 @@
+
+<html lang="en">
+  <head>
+    <title>Visit www.pixelrocket.store to learn how to become a frontend web developer</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer="defer"></script>
+  </head>
+  <body class="antialiased bg-body text-body font-body">
+    <div>
+      <section class="overflow-hidden" x-data="{ mobileNavOpen: false }">
+        <div class="bg-black py-2.5 px-4">
+          <div class="flex items-center justify-center"><a class="flex items-center gap-4 group" href="https://www.pixelrocket.store"><span class="text-neutral-50 text-sm font-medium group-hover:text-neutral-200 transition duration-200">Want to learn how to build templates like this one? Visit Pixel Rocket</span>
+              <div class="w-auto">
+                <div class="w-6 h-6 rounded-full border border-neutral-600 flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 12 12" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6 1L5.2825 1.6965L9.086 5.5H1V6.5H9.086L5.293 10.293L6 11L11 6L6 1Z" fill="#D2D8EC"></path>
+                  </svg>
+                </div>
+              </div></a></div>
+        </div>
+        <nav class="px-10 py-7">
+          <div class="relative flex items-center justify-between"><a class="relative z-10 pr-4 xl:pr-0" href="#"><img class="h-10" src="images/logo.svg" alt=""/></a>
+            <div class="hidden xl:flex xl:justify-center gap-16 xl:absolute xl:w-full xl:top-1/2 xl:left-1/2 xl:transform xl:-translate-y-1/2 xl:-translate-x-1/2 removed"><a class="inline-block text-lg tracking-tight font-medium hover:text-opacity-80 transition duration-200" href="about.html">About Us</a><a class="inline-block text-lg tracking-tight font-medium hover:text-opacity-80 transition duration-200" href="pricing.html">Pricing</a><a class="inline-block text-lg tracking-tight font-medium hover:text-opacity-80 transition duration-200" href="blog.html">Blog</a></div>
+            <div class="relative hidden xl:flex items-center gap-2"><a class="inline-flex justify-center items-center text-center h-12 p-5 font-medium tracking-tight text-lg hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="login.html">Account</a><a class="inline-flex justify-center items-center text-center h-12 p-5 font-medium tracking-tight text-lg hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="contact.html">Contact us</a></div>
+            <button class="xl:hidden" x-on:click="mobileNavOpen = !mobileNavOpen">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="14" viewbox="0 0 34 14" fill="none">
+                <g clip-path="url(#clip0_231_4713)">
+                  <rect width="34" height="3" rx="1.5" fill="#19191B"></rect>
+                  <rect y="11" width="34" height="3" rx="1.5" fill="#19191B"></rect>
+                </g>
+                <defs>
+                  <clippath id="clip0_231_4713">
+                    <rect width="34" height="14" fill="white"></rect>
+                  </clippath>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </nav>
+        <div class="hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-xs z-50" :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}">
+          <div class="fixed inset-0 bg-black opacity-20" x-on:click="mobileNavOpen = !mobileNavOpen"></div>
+          <nav class="relative p-8 w-full h-full bg-white overflow-y-auto">
+            <div class="flex flex-col justify-between h-full">
+              <div class="flex items-center justify-between"><a class="pr-4" href="#"><img class="h-10" src="images/logo.svg" alt=""/></a>
+                <button x-on:click="mobileNavOpen = !mobileNavOpen">
+                  <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 18L18 6M6 6L18 18" stroke="#252E4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="flex flex-col gap-8 py-16"><a class="inline-block max-w-max text-lg tracking-tight font-medium hover:text-opacity-80 transition duration-200" href="about.html">About Us</a><a class="inline-block max-w-max text-lg tracking-tight font-medium hover:text-opacity-80 transition duration-200" href="pricing.html">Pricing</a><a class="inline-block max-w-max text-lg tracking-tight font-medium hover:text-opacity-80 transition duration-200" href="blog.html">Blog</a></div>
+              <div class="flex flex-col items-center gap-2"><a class="inline-flex justify-center items-center text-center w-full h-12 p-5 font-medium tracking-tight text-lg hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="login.html">Account</a><a class="inline-flex justify-center items-center text-center w-full h-12 p-5 font-medium tracking-tight text-lg hover:text-white focus:text-white bg-transparent hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="contact.html">Contact us</a></div>
+            </div>
+          </nav>
+        </div>
+      </section>
+      <section class="overflow-hidden" x-data="{ mobileNavOpen: false }">
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-1/2 relative" style="height: 860px;"><img class="absolute top-0 left-0 w-full h-full object-cover" src="template-assets/images/hero/background2.png" alt=""/>
+            <div class="absolute left-5 sm:left-10 right-5 sm:right-10 bottom-10">
+              <h1 class="font-heading mb-8 text-6xl sm:text-9xl xl:text-10xl text-white font-semibold max-w-4xl"><span>Educate and</span>          <span class="relative inline-block"><span class="relative z-10">dominate</span>            <span class="absolute -bottom-2 left-0 h-1 w-full bg-green-200 rounded-full"></span></span>          <span>online</span></h1>
+              <p class="text-xl font-medium text-white mb-10 tracking-tight">Your journey to digital excellence starts here.</p><a class="inline-flex justify-center items-center text-center h-20 p-5 font-semibold tracking-tight text-2xl text-white bg-neutral-900 hover:bg-neutral-800 focus:bg-neutral-800 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="#">More</a>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 relative" style="height:860px;"><img class="absolute top-0 left-0 w-full h-full object-cover" src="template-assets/images/hero/background3.png" alt=""/>
+            <div class="absolute left-5 sm:left-10 right-5 sm:right-10 bottom-10">
+              <div class="flex items-end justify-between flex-wrap gap-6">
+                <div class="flex items-start flex-wrap gap-6">
+                  <div class="relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 48 48" fill="none">
+                      <circle cx="24" cy="24" r="24" fill="white"></circle>
+                    </svg>
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_231_4799)">
+                          <path d="M17.9176 11.7658L15.0151 10L17.9176 8.23417C18.2196 8.05332 18.4825 7.81416 18.691 7.53063C18.8995 7.24711 19.0495 6.92489 19.1322 6.58279C19.2149 6.24069 19.2286 5.88554 19.1726 5.53808C19.1166 5.19061 18.9919 4.85778 18.8059 4.559C18.6199 4.26022 18.3762 4.00148 18.0891 3.79786C17.8021 3.59425 17.4773 3.44984 17.1338 3.37306C16.7904 3.29628 16.435 3.28866 16.0886 3.35066C15.7421 3.41266 15.4115 3.54303 15.116 3.73417L12.501 5.40833V2.5C12.501 1.83696 12.2376 1.20107 11.7687 0.732233C11.2999 0.263392 10.664 0 10.001 0C9.33793 0 8.70205 0.263392 8.23321 0.732233C7.76437 1.20107 7.50098 1.83696 7.50098 2.5V5.49L4.88597 3.73417C4.28962 3.37698 3.57683 3.26834 2.90114 3.43164C2.22546 3.59495 1.64096 4.01713 1.27356 4.60725C0.906154 5.19736 0.785255 5.90818 0.936903 6.58658C1.08855 7.26498 1.50061 7.85666 2.08431 8.23417L4.98681 10L2.08431 11.7658C1.50061 12.1433 1.08855 12.735 0.936903 13.4134C0.785255 14.0918 0.906154 14.8026 1.27356 15.3927C1.64096 15.9829 2.22546 16.4051 2.90114 16.5684C3.57683 16.7317 4.28962 16.623 4.88597 16.2658L7.50098 14.5675V17.5C7.50098 18.163 7.76437 18.7989 8.23321 19.2678C8.70205 19.7366 9.33793 20 10.001 20C10.664 20 11.2999 19.7366 11.7687 19.2678C12.2376 18.7989 12.501 18.163 12.501 17.5V14.5167L15.116 16.2667C15.7123 16.6239 16.4251 16.7325 17.1008 16.5692C17.7765 16.4059 18.361 15.9837 18.7284 15.3936C19.0958 14.8035 19.2167 14.0927 19.065 13.4143C18.9134 12.7359 18.5013 12.1433 17.9176 11.7658Z" fill="#19191B"></path>
+                        </g>
+                        <defs>
+                          <clippath id="clip0_231_4799">
+                            <rect width="20" height="20" fill="white"></rect>
+                          </clippath>
+                        </defs>
+                      </svg>
+                    </div>
+                  </div>
+                  <h6 class="font-heading text-white text-2xl sm:text-4xl tracking-tight font-semibold w-56 sm:w-auto sm:max-w-xs">Subscription level. Pro plan</h6>
+                </div><a class="flex items-center flex-wrap gap-3 group" href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="27" viewbox="0 0 24 27" fill="none">
+                    <path d="M22.5 10.9019C24.5 12.0566 24.5 14.9434 22.5 16.0981L5.24999 26.0574C3.24999 27.2121 0.749999 25.7687 0.749999 23.4593L0.75 3.5407C0.75 1.2313 3.25 -0.212069 5.25 0.942631L22.5 10.9019Z" fill="#7CFF8F"></path>
+                  </svg>
+                  <h6 class="font-heading text-white text-xl font-semibold tracking-tight group-hover:text-opacity-80 transition duration-200">Watch video</h6></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-14 pb-24" style="background:linear-gradient(131deg, #E8E5FE 26.82%, #FFEED8 96.89%);">
+          <div class="container mx-auto px-4">
+            <div class="flex flex-wrap max-w-7xl mx-auto -m-3">
+              <div class="w-full md:w-1/2 p-3">
+                <div class="bg-white rounded-4xl p-10 h-full lg:h-60">
+                  <div class="flex flex-wrap -m-3">
+                    <div class="w-full lg:w-1/2 p-3">
+                      <div class="flex flex-col justify-between gap-6 xl:gap-12">
+                        <h6 class="font-heading text-4xl font-semibold max-w-xs tracking-tight">Subscription level. Pro plan</h6><a class="inline-flex items-center gap-3 group mr-auto" href="#"><span class="text-neutral-600 font-semibold group-hover:text-neutral-800 tracking-tight transition duration-200">Learn more now</span>
+                          <div class="w-6 h-6 rounded-full border border-neutral-50 group-hover:border-neutral-200 transition duration-200 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 12 12" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6 1L5.2825 1.6965L9.086 5.5H1V6.5H9.086L5.293 10.293L6 11L11 6L6 1Z" fill="#19191B"></path>
+                            </svg>
+                          </div></a>
+                      </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 p-3"><img class="mx-auto object-cover lg:mr-0 h-44" src="template-assets/images/hero/circle2.svg" alt=""/></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 p-3">
+                <div class="bg-white rounded-4xl p-10 h-full lg:h-60">
+                  <div class="flex flex-wrap -m-3">
+                    <div class="w-full lg:w-1/2 p-3">
+                      <div class="flex flex-col justify-between gap-6 xl:gap-12">
+                        <h6 class="font-heading text-4xl font-semibold max-w-xs tracking-tight">Solution that works for you</h6><a class="inline-flex items-center gap-3 group mr-auto" href="#"><span class="text-neutral-600 font-semibold group-hover:text-neutral-800 tracking-tight transition duration-200">Learn more now</span>
+                          <div class="w-6 h-6 rounded-full border border-neutral-50 group-hover:border-neutral-200 transition duration-200 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewbox="0 0 12 12" fill="none">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M6 1L5.2825 1.6965L9.086 5.5H1V6.5H9.086L5.293 10.293L6 11L11 6L6 1Z" fill="#19191B"></path>
+                            </svg>
+                          </div></a>
+                      </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 p-3"><img class="mx-auto object-cover lg:mr-0 h-44" src="template-assets/images/hero/diagram.svg" alt=""/></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-12 md:py-24 bg-neutral-50">
+        <div class="container mx-auto px-4">
+          <div class="mb-12 md:mb-24 text-center max-w-6xl mx-auto">
+            <h1 class="mb-16 font-semibold text-6xl sm:text-9xl xl:text-11xl font-heading"><span>Join the community, and change</span>              <span class="bg-orange-50 rounded-lg px-4 mt-1 inline-block">the future.</span></h1>
+            <p class="font-semibold text-2xl text-neutral-600 tracking-tight">Your journey to digital excellence starts here.</p>
+          </div>
+          <div class="mb-20">
+            <div class="flex flex-wrap -m-2.5">
+              <div class="w-full md:w-1/2 xl:w-8/12 p-2.5">
+                <div class="h-full p-10 bg-white rounded-5xl">
+                  <div class="mb-24">
+                    <h4 class="mb-2 text-5xl font-medium tracking-tight font-heading">Digital app</h4>
+                    <p class="font-medium text-lg text-neutral-600 tracking-tight max-w-xl">Can create, connect, verify, and search across all you knowledge platforms is one centralized, secure place - accelarating productivity.</p>
+                  </div>
+                  <div class="flex flex-wrap justify-between items-end -m-8">
+                    <div class="w-auto p-8"><a class="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-white hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="#">More</a></div>
+                    <div class="w-auto p-8"><img class="h- object-cover" src="template-assets/images/services/draw.png" alt=""/></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 xl:w-4/12 p-2.5">
+                <div class="h-full p-10 bg-white rounded-5xl">
+                  <div class="flex flex-col justify-between h-full">
+                    <div class="w-full">
+                      <h4 class="mb-2 text-4xl font-medium tracking-tight font-heading">Content marketing</h4>
+                      <p class="mb-4 font-medium text-lg text-neutral-600 tracking-tight max-w-xs">Our company provides content strategies and creates valuable...</p><img class="mx-auto mb-8 h-64 object-cover" src="template-assets/images/services/draw2.png" alt=""/>
+                    </div>
+                    <div class="w-full"><a class="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-white hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="#">More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 xl:w-1/3 p-2.5">
+                <div class="h-full p-10 bg-white rounded-5xl">
+                  <div class="flex flex-col justify-between h-full">
+                    <div class="w-full">
+                      <h4 class="mb-2 text-4xl font-medium tracking-tight font-heading">Email marketing</h4>
+                      <p class="mb-12 font-medium text-lg text-neutral-600 tracking-tight max-w-xs">We design personalized email marketing campaigns that help build lasting customer...</p><img class="mb-8 h-44 mx-auto object-cover" src="template-assets/images/services/draw3.png" alt=""/>
+                    </div>
+                    <div class="w-full"><a class="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-white hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="#">More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 xl:w-1/3 p-2.5">
+                <div class="h-full p-10 bg-white rounded-5xl">
+                  <div class="flex flex-col justify-between h-full">
+                    <div class="w-full">
+                      <h4 class="mb-2 text-4xl font-medium tracking-tight font-heading">User-flow</h4>
+                      <p class="mb-12 font-medium text-lg text-neutral-600 tracking-tight max-w-xs">Our data analysis service provides accurate insights into the results of your marketing efforts.</p><img class="mb-8 h-24 object-cover mx-auto" src="template-assets/images/services/draw4.png" alt=""/>
+                    </div>
+                    <div class="w-full"><a class="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-white hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="#">More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full md:w-full xl:w-1/3 p-2.5">
+                <div class="h-full p-10 bg-white rounded-5xl">
+                  <div class="flex flex-col justify-between h-full">
+                    <div class="w-full">
+                      <h4 class="mb-2 text-4xl font-medium tracking-tight font-heading">Email marketing</h4>
+                      <p class="mb-12 font-medium text-lg text-neutral-600 tracking-tight max-w-xs">We design personalized email marketing campaigns that help build lasting customer...</p><img class="mb-8 h-36 object-cover mx-auto" src="template-assets/images/services/draw5.png" alt=""/>
+                    </div>
+                    <div class="w-full"><a class="inline-flex justify-center items-center text-center h-16 p-5 font-semibold tracking-tight text-xl hover:text-white focus:text-white bg-white hover:bg-neutral-900 focus:bg-neutral-900 border border-neutral-900 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="#">More</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap justify-center">
+            <div class="w-auto"><a class="inline-flex justify-center items-center text-center h-20 p-5 font-semibold tracking-tight text-2xl text-white bg-neutral-900 hover:bg-neutral-800 focus:bg-neutral-800 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="#">Learn more</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="py-12 md:py-24 xl:pb-64 bg-neutral-900">
+        <div class="container mx-auto px-4">
+          <div class="mb-12 md:mb-20 max-w-5xl">
+            <h1 class="relative text-6xl sm:text-9xl xl:text-11xl text-white font-semibold font-heading"><span class="mr-3">Innovate, educate, and</span>              <span class="relative inline-block"><span class="relative z-10">Dominate Online</span>                <span class="absolute -bottom-2 left-0 h-2.5 w-full bg-green-100 rounded-full"></span></span></h1>
+          </div>
+          <h3 class="mb-8 text-4xl text-white font-semibold tracking-tight font-heading">The most important news</h3>
+          <div class="flex flex-wrap -m-3">
+            <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+              <div class="flex flex-col h-full justify-center p-10 bg-white rounded-5xl">
+                <div class="flex flex-wrap items-center -m-3 mb-5">
+                  <div class="w-auto p-3">
+                    <div class="flex items-center justify-center w-16 h-16 bg-neutral-900 rounded-full"><img src="template-assets/images/features/sticker.svg" alt=""/></div>
+                  </div>
+                  <div class="flex-1 p-3">
+                    <h4 class="text-4xl font-medium tracking-tight font-heading max-w-xs">Customized Campaigns</h4>
+                  </div>
+                </div>
+                <p class="text-neutral-600 font-medium tracking-tight max-w-sm">Tailor your marketing approach with our customizable campaigns. We work closely with you to understand your unique goals and audience, designing personalized strategies that ensure your message reaches the right people at the right time.</p>
+              </div>
+            </div>
+            <div class="relative xl:top-20 w-full md:w-1/2 xl:w-1/3 p-3">
+              <div class="mb-6 p-10 bg-white rounded-5xl">
+                <div class="flex flex-wrap items-center -m-3 mb-5">
+                  <div class="w-auto p-3">
+                    <div class="flex items-center justify-center w-16 h-16 bg-neutral-900 rounded-full"><img src="template-assets/images/features/sticker.svg" alt=""/></div>
+                  </div>
+                  <div class="flex-1 p-3">
+                    <h4 class="text-4xl font-medium tracking-tight font-heading max-w-xs">Data-Driven Insights</h4>
+                  </div>
+                </div>
+                <p class="text-neutral-600 font-medium tracking-tight max-w-sm">Unlock the power of data with our advanced analytics tools. Gain actionable insights into customer behavior, market trends, and campaign performance</p>
+              </div>
+              <div class="p-10 bg-white rounded-5xl">
+                <div class="flex flex-wrap items-center -m-3 mb-5">
+                  <div class="w-auto p-3">
+                    <div class="flex items-center justify-center w-16 h-16 bg-neutral-900 rounded-full"><img src="template-assets/images/features/sticker.svg" alt=""/></div>
+                  </div>
+                  <div class="flex-1 p-3">
+                    <h4 class="text-4xl font-medium tracking-tight font-heading max-w-xs">Customer Support</h4>
+                  </div>
+                </div>
+                <p class="text-neutral-600 font-medium tracking-tight max-w-sm">We're here for you around the clock. Our dedicated support team is ready to assist with any questions or concerns you may have.</p>
+              </div>
+            </div>
+            <div class="relative xl:top-40 w-full xl:w-1/3 p-3">
+              <div class="flex flex-col h-full justify-center p-10 bg-white rounded-5xl">
+                <div class="flex flex-wrap items-center -m-3 mb-5">
+                  <div class="w-auto p-3">
+                    <div class="flex items-center justify-center w-16 h-16 bg-neutral-900 rounded-full"><img src="template-assets/images/features/sticker.svg" alt=""/></div>
+                  </div>
+                  <div class="flex-1 p-3">
+                    <h4 class="text-4xl font-medium tracking-tight font-heading max-w-xs">A/B Testing and Optimization</h4>
+                  </div>
+                </div>
+                <p class="text-neutral-600 font-medium tracking-tight max-w-sm">Maximize the effectiveness of your digital campaigns through A/B testing and continuous optimization. We fine-tune your content, ads, and user experience to increase engagement, conversions, and overall success.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-neutral-50 pt-12 md:pt-24">
+        <div class="container mx-auto px-4">
+          <h1 class="text-6xl sm:text-9xl xl:text-11xl font-semibold text-neutral-800 max-w-sm sm:max-w-6xl relative mb-12 tracking-tight font-heading"><span class="mr-3">Want to learn how</span>      <span class="relative inline-block"><span class="relative z-10">to create templates?</span>        <span class="absolute -bottom-2 left-0 h-2.5 w-full bg-orange-500 rounded-full"></span></span></h1>
+          <p class="text-2xl md:text-4xl font-semibold mb-16 text-neutral-600 tracking-tight">Visit Pixel Rocket and learn frontend web development</p><a class="inline-flex justify-center items-center text-center h-20 p-5 font-semibold tracking-tight text-2xl text-white bg-neutral-900 hover:bg-neutral-800 focus:bg-neutral-800 rounded-lg focus:ring-4 focus:ring-neutral-400 transition duration-200" href="https://www.pixelrocket.store">Visit Pixel Rocket</a><img class="w-full h-full object-cover" style="height: 515px;" src="template-assets/images/download/phone-picture.png" alt=""/>
+        </div>
+      </section>
+      <section class="overflow-hidden">
+        <div class="bg-neutral-900">
+          <div class="py-3 border-b border-neutral-600">
+            <div class="container mx-auto px-4">
+              <div class="flex justify-between flex-wrap gap-4">
+                <div class="flex items-center gap-6 sm:gap-18 flex-wrap"><a class="text-white font-medium hover:text-opacity-80 tracking-tight transition duration-200" href="#">Help Center</a><a class="text-white font-medium hover:text-opacity-80 tracking-tight transition duration-200" href="#">Location</a></div>
+                <div class="flex items-center gap-6 sm:gap-18 flex-wrap"><a class="text-white font-medium hover:text-opacity-80 tracking-tight transition duration-200" href="#">Contact</a>
+                  <div class="flex items-center gap-6 flex-wrap"><a class="text-white font-medium hover:text-opacity-80 tracking-tight transition duration-200" href="#">Back to top</a>              <a class="relative text-white hover:text-opacity-80 transition duration-200" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40" fill="none">
+                        <circle cx="20" cy="20" r="19.5" transform="rotate(90 20 20)" fill="currentColor" stroke="#E5E5E7"></circle>
+                      </svg>
+                      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none">
+                          <path d="M6.41225 12.1235L9.60066 8.93506L12.7891 12.1235" stroke="#19191B" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </div></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pt-12 pb-20 md:pb-40">
+            <div class="container mx-auto px-4">
+              <div class="flex flex-wrap -mx-4">
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/6 p-4">
+                  <h2 class="text-white text-xl font-medium tracking-tight mb-8">Product</h2>
+                  <ul class="flex flex-col gap-4">
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Design</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Applications</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Integrations</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">All Devices</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight focus-within:transition duration-200" href="#">Design</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">View our demo</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Chat</a></li>
+                  </ul>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/6 p-4">
+                  <h2 class="text-white text-xl font-medium tracking-tight mb-8">Resources</h2>
+                  <ul class="flex flex-col gap-4">
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Status</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Helpdesk</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Migra Academy</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Community</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Events</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Videos</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">New System</a></li>
+                  </ul>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/6 p-4">
+                  <h2 class="text-white text-xl font-medium tracking-tight mb-8">Company</h2>
+                  <ul class="flex flex-col gap-4">
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">About us</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Team</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Careers</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Customer Stories</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Blog</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Media</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Our Locations</a></li>
+                  </ul>
+                </div>
+                <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/6 p-4">
+                  <h2 class="text-white text-xl font-medium tracking-tight mb-8">Solutions</h2>
+                  <ul class="flex flex-col gap-4">
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Business</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Consultations</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Education</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Contact</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Contact sales</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">FAQ</a></li>
+                    <li><a class="text-neutral-300 font-medium hover:text-neutral-400 tracking-tight transition duration-200" href="#">Live Chat</a></li>
+                  </ul>
+                </div>
+                <div class="w-full lg:w-1/2 xl:w-1/3 p-4">
+                  <h2 class="text-white text-lg font-medium tracking-tight mb-6">Join our Newsletter now</h2>
+                  <form class="mb-6" action="#">
+                    <div class="flex flex-wrap -m-2">
+                      <div class="w-full sm:flex-1 p-2">
+                        <input class="w-full px-8 py-5 outline-none rounded-lg placeholder-neutral-600 font-medium focus:ring-4 focus:ring-neutral-100 transition duration-200" type="text" placeholder="Your Email"/>
+                      </div>
+                      <div class="w-full sm:w-auto p-2">
+                        <button class="flex justify-center items-center text-center h-full w-full p-5 font-semibold tracking-tight text-lg bg-green-200 hover:bg-green-100 focus:bg-green-100 rounded-lg focus:ring-4 focus:ring-green-200 focus:ring-opacity-50 transition duration-200" type="submit">More</button>
+                      </div>
+                    </div>
+                  </form>
+                  <p class="text-neutral-400 text-sm font-medium max-w-sm tracking-tight">Get the ideas, tools and tips you need to grow your sound straight to your inb</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-neutral-800 py-6">
+          <div class="container mx-auto px-4">
+            <div class="flex items-center gap-12 flex-wrap"><a href="#"><img src="images/logo-white.svg" alt=""/></a>
+              <p class="text-neutral-400 font-medium tracking-tight">© Convergence. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
